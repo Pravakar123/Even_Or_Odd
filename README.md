@@ -1,2 +1,18 @@
-# Even_Or_Odd
-Even Or Odd  image  Take an integer value as input.  Print "Even" if the number is even else print "Odd" if the number is odd.  Note:- 0 will be considered as even number.  Input Format  Input single line.  An integer value. Constraints  -(10^5)&lt;=N&lt;=10^5  Output Format  Output single line.  A String "Even" Or "Odd". Sample Input 0  98 Sample Output 0  Even Sample Input 1  57 Sample Output 1  Odd
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        
+        Scanner s=new Scanner(System.in);
+       int n=s.nextInt();
+        if(n%2==0){
+            System.out.println("Even");
+        }
+        else{
+            System.out.println("Odd");
+        }
+    }
+}
